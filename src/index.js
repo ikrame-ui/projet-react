@@ -5,13 +5,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App1 from './composant/Appclass';
 import AppCalcule from './AppCalcule';
+import Grp204WeatherApp from './composant/gitprojet/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <App1/> */}
-    <AppCalcule/>
+    {/* <AppCalcule/> */}
+    <Grp204WeatherApp/>
   </React.StrictMode>
 );
 
